@@ -1,7 +1,11 @@
 function Footer() {
-    <div class="footer-container">
-            <button class="footer-button">New Post</button>
-        </div>
+  return (
+    <footer>
+      <div className="footer-container">
+        <button className="footer-button">New Post</button>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;

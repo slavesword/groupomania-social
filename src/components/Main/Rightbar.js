@@ -1,11 +1,13 @@
-import newsImage from "../assets/coffee-paper-typewriter-table.jpg";
+import newsImage from "../../assets/coffee-paper-typewriter-table.jpg";
 
 function Rightbar() {
-    <section class="right">
+
+    return (
+    <section className="right">
             
-            <div class="company-news">
+            <div className="company-news">
                 <h1>Company News</h1>
-                <img src= {newsImage} alt="Company News Image" />
+                <img src= {newsImage} alt="Company News" />
                 <p>To transform your employees from apathetic employee newsletter deleters to engaged readers, consider what kind of content they really want.
 
                     Your internal newsletter can’t all be corporate announcements. Like any great piece of content, there has to be variety to capture — and keep — your readers’ attention.
@@ -16,6 +18,7 @@ function Rightbar() {
             </div>
 
         </section>
+    )
 }
 
 export default Rightbar;

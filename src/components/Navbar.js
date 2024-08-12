@@ -4,14 +4,14 @@ import avatar from "../assets/icon.jpg";
 function Navbar() {
   return (
     <header>
-      <div class="header-background"></div>
-      <div class="header-container">
-        <div class="header-top">
-          <img src={logo} alt="logo" class="logo" />
+      <div className="header-background"></div>
+      <div className="header-container">
+        <div className="header-top">
+          <img src={logo} alt="logo" className="logo" />
         </div>
-        <div class="header-bottom"></div>
-        <div class="header-floating">
-        <img src={avatar} alt="Profile" class="profile-image" />
+        <div className="header-bottom"></div>
+        <div className="header-floating">
+        <img src={avatar} alt="Profile" className="profile-image" />
         </div>
       </div>
     </header>

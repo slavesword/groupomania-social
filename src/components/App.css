@@ -107,7 +107,7 @@
     padding-top: 150px; /* To account for the fixed header height */
     padding-bottom: 90px; /* To account for the fixed footer height */
     height: calc(100% - 240px); /* To fit between the header and footer */
-    height: 100%;
+    height: 100vh;
     overflow-y: auto;
     position: relative;
   }

@@ -1,25 +1,16 @@
 import './App.css';
 import Navbar from './Navbar';
-import Leftbar from './Leftbar';
-import Center from './Center';
-import Rightbar from './Rightbar';
+import Main from './Main/Main';
 import Footer from './Footer';
 
 function App() {
   return (
-    <body>
-      
+    <div>
       <Navbar />
-      <main>
-        <Leftbar />
-        <Center />
-        <Rightbar />
-      </main>
+      <Main />
       <Footer />
+    </ div>
       
-      
-    </body>
-
   );
 }
 

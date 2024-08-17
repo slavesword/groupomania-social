@@ -1,6 +1,6 @@
-import Leftbar from './Leftbar';
-import Center from './Center';
-import Rightbar from './Rightbar';
+import Leftbar from '../Leftbar';
+import Center from '../Center';
+import Rightbar from '../Rightbar';
 
 function Main() {
   return (
